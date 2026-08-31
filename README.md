@@ -2,7 +2,8 @@
 
 # tomat
 
-A lightweight C# (.NET 8.0) utility as a replacement for ShareX and other screenshot programs (there is also an eyedropper function for copying colour from the screen). This program works in the background without an icon on the taskbar.
+A lightweight C# (.NET 8.0) utility that replaces the standard flyout multimedia for Windows 10.
+This program works in the background without an icon on the taskbar.
 
 First of all, I built this utility for myself, but I also prepared it for public use. Ready to download and run the `.exe` file is in the repository.
 
