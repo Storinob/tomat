@@ -13,8 +13,8 @@ First of all, I built this utility for myself, but I also prepared it for public
 
 ## Screenshots
 
-<img width="604" height="209" alt="5fb21a32" src="https://github.com/user-attachments/assets/26c7285e-9018-4d6d-bbf1-527dfe855100" />
-<img width="603" height="346" alt="3237230f" src="https://github.com/user-attachments/assets/e3ac4aae-4cc3-4951-9d35-2be5c3b811a0" />
+<img width="511" height="208" alt="71ca899b" src="https://github.com/user-attachments/assets/21e7667d-3df7-47fe-bd23-8ca4f3ad6e8b" />
+<img width="710" height="344" alt="1fa70ae7" src="https://github.com/user-attachments/assets/86148ab8-9be2-472c-9cea-b93f03a417db" />
 
 ## Build
 
