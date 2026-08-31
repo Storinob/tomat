@@ -5,7 +5,7 @@ namespace tomat
 {
     public static class NativeOsdHider
     {
-        [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
+        [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
         private static extern IntPtr FindWindow(string? lpClassName, string? lpWindowName);
 
         [DllImport("user32.dll")]
@@ -26,9 +26,9 @@ namespace tomat
         public static void StartMonitoring()
         {
             _hookDelegate = WinEventProc;
-
+            
             SetWinEventHook(EVENT_OBJECT_SHOW, EVENT_OBJECT_SHOW, IntPtr.Zero, _hookDelegate, 0, 0, WINEVENT_OUTOFCONTEXT);
-
+            
             IntPtr hwnd = FindWindow("NativeHWNDHost", null);
             if (hwnd != IntPtr.Zero)
             {
@@ -39,7 +39,7 @@ namespace tomat
         private static void WinEventProc(IntPtr hWinEventHook, uint eventType, IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime)
         {
             IntPtr targetHwnd = FindWindow("NativeHWNDHost", null);
-
+            
             if (hwnd == targetHwnd && hwnd != IntPtr.Zero)
             {
                 ShowWindow(hwnd, SW_HIDE);
