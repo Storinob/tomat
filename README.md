@@ -14,6 +14,7 @@ First of all, I built this utility for myself, but I also prepared it for public
 ## Screenshots
 
 <img width="604" height="209" alt="5fb21a32" src="https://github.com/user-attachments/assets/26c7285e-9018-4d6d-bbf1-527dfe855100" />
+<img width="603" height="346" alt="3237230f" src="https://github.com/user-attachments/assets/e3ac4aae-4cc3-4951-9d35-2be5c3b811a0" />
 
 ## Build
 
