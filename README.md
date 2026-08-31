@@ -11,9 +11,9 @@ First of all, I built this utility for myself, but I also prepared it for public
 [![Latest Release](https://img.shields.io/github/v/release/Storinob/tomat?color=007acc&label=release)](https://github.com/Storinob/tomat/releases/)
 
 
-## Features
+## Screenshots
 
-* When launched, the utility starts working in the background without icons or windows.
+123
 
 ## Build
 
