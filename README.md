@@ -13,18 +13,7 @@ First of all, I built this utility for myself, but I also prepared it for public
 
 ## Features
 
-* Utility independently requests administrator rights at startup to avoid conflicts with programs that have a higher priority in the system, such as Task Manager, etc.
-* The utility saves screenshots in the `C:\Users\{user}\Pictures\screenshots\{month_year}` folder with a random 8-character alphanumeric name.
-* After taking a screenshot, the program plays the `done.wav` sound.
-* Global Hotkeys:
-    * `PrintScreen` — Screenshot of the screen area.
-        * `Ctrl + LMB` — Drawing red lines.
-        * `Shift + LMB` — Drawing red rectangle.
-        * `Alt + LMB` — Covering the area with a solid maroon rectangle.
-        * `Z` or `BackSpace` — Undo drawn.
-        * `RMB` or `Esc` — Reset drawn/selection.
-    * `Shift + PrintScreen` — Instant screenshot of the entire screen.
-    * `Ctrl + PrintScreen` — Dropper (Color Picker). Left-click copies the HEX code of the colour to the clipboard.
+* When launched, the utility starts working in the background without icons or windows.
 
 ## Build
 
