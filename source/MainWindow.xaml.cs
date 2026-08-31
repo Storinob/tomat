@@ -285,7 +285,7 @@ namespace tomat
                 Width = 36,
                 Height = 36,
                 Margin = new Thickness(2, 0, 2, 0),
-                Background = new SolidColorBrush(Color.FromRgb(45, 45, 45)),
+                Background = Brushes.Transparent,
                 Foreground = Brushes.White,
                 BorderThickness = new Thickness(0),
                 FontSize = 13
