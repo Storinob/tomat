@@ -7,7 +7,11 @@ namespace tomat
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);
+            try
+            {
+                Process.GetCurrentProcess().PriorityClass = ProcessPriorityClass.AboveNormal;
+            }
+            catch { }
             KillOldInstances();
             base.OnStartup(e);
             NativeOsdHider.StartMonitoring();

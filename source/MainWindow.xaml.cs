@@ -31,7 +31,7 @@ namespace tomat
             Left = 20;
             Top = 20;
 
-            _hideTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(3) };
+            _hideTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(4) }; // tiem bef hide
             _hideTimer.Tick += (s, e) => { Hide(); _hideTimer.Stop(); };
 
             Loaded += (s, e) => Hide();
