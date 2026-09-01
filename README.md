@@ -2,7 +2,7 @@
 
 # tomat
 
-A lightweight C# (.NET 8.0) utility that replaces the standard media flyout for Windows 10. It displays the current music source in the upper left corner for 3 seconds, and if there are others, a list will be displayed. This flyout itself is not a window, so it does not change focus or keyboard input.
+A lightweight C# (.NET 8.0) utility that replaces the standard media flyout for Windows 10. It displays the current music source in the upper left corner for 4 seconds, and if there are others, a list will be displayed. This flyout itself is not a window, so it does not change focus or keyboard input.
 The program also runs in the background without an icon on the taskbar.
 
 First of all, I built this utility for myself, but I also prepared it for public use. Ready to download and run the `.exe` file is in the repository.
