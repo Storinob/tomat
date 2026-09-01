@@ -12,9 +12,10 @@ First of all, I built this utility for myself, but I also prepared it for public
 
 
 ## Screenshots
-
-<img width="640" height="360" alt="Timeline 1" src="https://github.com/user-attachments/assets/af216221-879a-4a3d-9abd-697690975cca" />
-
+(1920x1080)
+<img width="1920" height="1080" alt="426505c5" src="https://github.com/user-attachments/assets/0f81eb0f-f175-4ad7-8a5d-1b36e3846ce4" />
+<img width="640" height="360" alt="tomat1" src="https://github.com/user-attachments/assets/520c0633-2dc4-4085-b769-a73c3c6aae2e" />
+<img width="640" height="360" alt="tomat2" src="https://github.com/user-attachments/assets/e6f954e9-9906-422c-9358-429eae4d82fb" />
 
 ## Build
 
