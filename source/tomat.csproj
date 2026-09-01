@@ -11,9 +11,9 @@
     <Authors>b1no</Authors>
 	  <Publisher>b1no</Publisher>
     <Copyright>© 2026 b1no. All rights reserved</Copyright>
-  	<AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-  	<Version>1.0.0</Version>
+  	<AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
+  	<Version>1.2.0</Version>
     <InformationalVersion>Stable</InformationalVersion>
 	  <RepositoryUrl>https://github.com/Storinob/tomat</RepositoryUrl>
   </PropertyGroup>

@@ -10,11 +10,11 @@
         Topmost="True" 
         ShowInTaskbar="False">
     
-    <Border Background="#CC1E1E1E" 
+    <Border x:Name="MainBorder" 
+            Background="#CC1E1E1E" 
             CornerRadius="8" 
             Padding="10" 
             Margin="10">
-        <!-- Обязательно укажи имя x:Name="MediaSessionsContainer" -->
         <StackPanel x:Name="MediaSessionsContainer" Orientation="Vertical" />
     </Border>
 </Window>
