@@ -26,7 +26,7 @@ jobs:
             const body = process.env.RELEASE_BODY || "";
 
             const url = `https://discord.com/api/webhooks/${id}/${token}`;
-            const content = `@code-update\n# tomat - ${title}\n${body}\n\nhttps://github.com/Storinob/limon/releases/tag/${tag}`;
+            const content = `@code-update\n# tomat - ${title}\n${body}\n\nhttps://github.com/Storinob/tomat/releases/tag/${tag}`;
 
             const payload = JSON.stringify({ content });
 
